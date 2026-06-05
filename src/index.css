@@ -1458,6 +1458,11 @@ section:not(.hero) { box-shadow: inset 0 40px 40px -40px rgba(46,163,242,0.05); 
 
 @media (max-width: 1100px) {
   .svc-grid { grid-template-columns: repeat(2, 1fr); }
+  .svc2-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .svc2-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 960px) {
