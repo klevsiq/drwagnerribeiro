@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.claude/
+*.tsbuildinfo
+.DS_Store
+assets/
+chk_*.png
+prof_*.png
+favicon_preview.png
+screenshot*.png
+screenshot*.mjs
